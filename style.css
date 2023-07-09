@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* Header banner Section Start Here */
 .banner{
     width: 100%;
     height: 100vh;
@@ -44,4 +45,45 @@
     font-weight: bold;
     font-size: 20px;
     color: rgb(17, 88, 219);
+}
+ /* My failur of Previous Year Section Start Here */
+.failures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    padding: 0px 120px;
+    margin: 100px 200px;
+}
+.image{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.failure-text{
+    display: flex;
+    flex-direction: column;
+}
+.fail-title{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.fail-p{
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fail-des{
+    margin: 15px 0px;
+}
+.fail-check{
+    line-height: 40px;
 }
