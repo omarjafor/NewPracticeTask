@@ -3,6 +3,9 @@
     padding: 0;
 }
 /* Header banner Section Start Here */
+body{
+    margin-top: 0px;
+}
 .banner{
     width: 100%;
     height: 100vh;
@@ -42,9 +45,12 @@
     border-radius: 3px;
     border: none;
     background: #FFF;
-    font-weight: bold;
     font-size: 20px;
-    color: rgb(17, 88, 219);
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
 }
  /* My failur of Previous Year Section Start Here */
 .failures{
@@ -123,4 +129,25 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.callnow{
+    background-image: url('images/gradient1.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 150px 230px;
+    padding: 60px 100px;
+    border-radius: 8px;
+}
+.callnow h3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.callnow button{
+    margin-top: 25px;
+    border-radius: 5px;
 }
