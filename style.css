@@ -87,3 +87,40 @@
 .fail-check{
     line-height: 40px;
 }
+/* My Plan Section Start Here  */
+.plan-title{
+    color: var(--dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 10px 20px;
+}
+.myplanitem{
+    text-align: center;
+}
+.myplanitem h4{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 0px;
+}
+.myplanitem p{
+    color: var(--dark-03, #737272);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
