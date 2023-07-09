@@ -181,3 +181,40 @@ body{
 .social-links a{
     padding-right: 20px;
 }
+.footer-mail h3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
+.footer-mail input{
+    padding: 18px 28px;
+    margin-top: 25px;
+    color: #F3F3F3;
+    background: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+}
+.footer-mail input::placeholder {
+    color: #F3F3F3;
+    opacity: 1;
+}
+.btn-foot{
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 36px;
+    margin-top: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
